@@ -1,0 +1,58 @@
+div#projects div.col-sm-6 {
+	text-align: center;
+	padding: 0;
+}
+
+div#projects div {
+	border-radius: 32px;
+}
+
+body {
+	font-family: futura-pt, sans-serif;
+	margin: 24 auto;
+}
+
+a.navbar-brand {
+	font-size: 22px;
+	color: #000;
+	font-weight: 600;
+}
+
+a.nav-link {
+	font-size: 22px;
+	font-weight: 600;
+	color: #777;
+}
+
+h1 {
+	font-size: 72px;
+	font-weight: 600;
+	margin: 10% 0;
+}
+
+h1 a {
+	color: blue;
+}
+
+
+h1 span.wrap {
+	overflow: hidden; /* Ensures the content is not revealed until the animation */
+	border-right: 3px solid blue; /* The typwriter cursor */
+	white-space: nowrap; /* Keeps the content on a single line */
+	margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+	animation: 
+	  typing 3.5s steps(40, end),
+	  blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+	from { width: 0 }
+	to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+	from, to { border-color: blue }
+	50% { border-color: white; }
+  }
