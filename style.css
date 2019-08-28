@@ -56,3 +56,33 @@ h1 span.wrap {
 	from, to { border-color: blue }
 	50% { border-color: white; }
   }
+
+div.recommendations {
+	box-shadow: 0px 4px 12px 0px rgba(0,0,0,0.10);
+	border-radius: 8px;
+	padding: 32px;
+	transition: all 200ms;
+	text-align: center;
+	background-color: white;
+  }
+
+div.recommendations:hover {
+	  transform: scale(1.02);
+	  transition: all 200ms;
+	  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.20);
+  }
+
+div.recommendations p {
+	  font-size: 13pt;
+  }
+
+div.section {
+	  background-color: #fafafa;
+	  padding: 64px;
+	  }
+
+a.typewrite:hover {
+	text-decoration: none;
+	color: blue;
+}
+
